@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some Chart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/addition.css') }}">
+</head>
+<body>
+<form class="form-inline" action="/index/" method="post" id="form"></form>
+    <dev class="container-fluid">
+        <dev class="row">
+            <div class="col-lg-6 col-md-6" style="padding:0px;">
+                <embed type="image/svg+xml" class="chart" src={{avarage_dur_graph|safe}} />
+                <div class="selection form-group form-horizontal">
+                    <select class="form-control" name="interval_average_duration" form="form">
+                        <option value="1h" >1 hour</option>
+                        <option value="1d" >1 day</option>
+                        <option value="7d" >1 week</option>
+                    </select>
+                    <input class=" form-control btn btn-primary" form="form" type="submit" value="submit"/>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <embed type="image/svg+xml" src={{error_count_graph|safe}} />
+                <div class="selection form-group form-horizontal">
+                    <select class="form-control" name="interval_error_count" form="form">
+                        <option value="1h" >1 hour</option>
+                        <option value="1d" >1 day</option>
+                        <option value="7d" >1 week</option>
+                    </select>
+                    <input class=" form-control btn btn-primary" form="form" type="submit" value="submit"/>
+                </div>
+            </div>
+        </dev>
+
+        <dev class="row">
+            <div class="col-lg-12 col-md-12">
+                <embed type="image/svg+xml" src={{error_soap_graph|safe}} />
+                <div class="selection form-group form-horizontal">
+                    <select class="form-control" name="interval_error_soap" form="form">
+                        <option value="1h" >1 hour</option>
+                        <option value="1d" >1 day</option>
+                        <option value="7d" >1 week</option>
+                    </select>
+                    <input class=" form-control btn btn-primary" form="form" type="submit" value="submit"/>
+                </div>
+            </div>
+
+        </dev>
+    </dev>
+
+
+
+
+</body>
+</html>

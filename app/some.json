@@ -1,0 +1,1442 @@
+{
+  "responses": [
+    {
+      "took": 10,
+      "timed_out": false,
+      "_shards": {
+        "total": 5,
+        "successful": 5,
+        "failed": 0
+      },
+      "hits": {
+        "total": 7610,
+        "max_score": 0.0,
+        "hits": []
+      },
+      "aggregations": {
+        "2": {
+          "buckets": [
+            {
+              "key_as_string": "2016-03-04T18:00:00.000+03:00",
+              "key": 1457103600000,
+              "doc_count": 7610,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 2157,
+                    "1": {
+                      "value": 6
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 285,
+                    "1": {
+                      "value": 5
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 1037,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 1613,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 57,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 409,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAllLpusInfo",
+                    "doc_count": 15,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 842,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getLpusInfo",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 531,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 624,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 39,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+
+
+
+{
+  "responses": [
+    {
+      "took": 4,
+      "timed_out": false,
+      "_shards": {
+        "total": 5,
+        "successful": 5,
+        "failed": 0
+      },
+      "hits": {
+        "total": 8040,
+        "max_score": 0.0,
+        "hits": []
+      },
+      "aggregations": {
+        "2": {
+          "buckets": [
+            {
+              "key_as_string": "2016-03-04T18:12:00.000+03:00",
+              "key": 1457104320000,
+              "doc_count": 20,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 5,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 3,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 2,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 6,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:13:00.000+03:00",
+              "key": 1457104380000,
+              "doc_count": 579,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 163,
+                    "1": {
+                      "value": 3
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 78,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 110,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 3,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 22,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 27,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAllLpusInfo",
+                    "doc_count": 2,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 74,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 42,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 56,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 2,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:14:00.000+03:00",
+              "key": 1457104440000,
+              "doc_count": 499,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 119,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 59,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 106,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 5,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 16,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 33,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 68,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 39,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 51,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 3,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:15:00.000+03:00",
+              "key": 1457104500000,
+              "doc_count": 614,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 230,
+                    "1": {
+                      "value": 5
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 79,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 111,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 19,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 34,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAllLpusInfo",
+                    "doc_count": 4,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 62,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 32,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 39,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 4,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:16:00.000+03:00",
+              "key": 1457104560000,
+              "doc_count": 556,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 26,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 128,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 68,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 130,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 6,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 35,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAllLpusInfo",
+                    "doc_count": 2,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 65,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 46,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 43,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 7,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:17:00.000+03:00",
+              "key": 1457104620000,
+              "doc_count": 651,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 242,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 23,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 87,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 123,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 5,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 32,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 57,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 32,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 46,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 4,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:18:00.000+03:00",
+              "key": 1457104680000,
+              "doc_count": 626,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 195,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 68,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 123,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 4,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 23,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 35,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 71,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 48,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 56,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 3,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:19:00.000+03:00",
+              "key": 1457104740000,
+              "doc_count": 511,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 153,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 84,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 95,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 5,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 17,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 31,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAllLpusInfo",
+                    "doc_count": 2,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 55,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getLpusInfo",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 23,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 41,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 4,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:20:00.000+03:00",
+              "key": 1457104800000,
+              "doc_count": 576,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 169,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 26,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 77,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 109,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 5,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 38,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 61,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 36,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 54,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:21:00.000+03:00",
+              "key": 1457104860000,
+              "doc_count": 529,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 137,
+                    "1": {
+                      "value": 3
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 13,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 66,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 132,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 4,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 28,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 61,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 41,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 45,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 2,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:22:00.000+03:00",
+              "key": 1457104920000,
+              "doc_count": 495,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 109,
+                    "1": {
+                      "value": 5
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 23,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 74,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 126,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 26,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 51,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 51,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 32,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 2,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:23:00.000+03:00",
+              "key": 1457104980000,
+              "doc_count": 527,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 16,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 71,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 146,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 77,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 55,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 92,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 3,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 37,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 27,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 3,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:24:00.000+03:00",
+              "key": 1457105040000,
+              "doc_count": 586,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 159,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 70,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 138,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 6,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 19,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 40,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 68,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 38,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 47,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 1,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:25:00.000+03:00",
+              "key": 1457105100000,
+              "doc_count": 642,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 173,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 94,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 124,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 6,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 20,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 44,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 79,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 34,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 63,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 5,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:26:00.000+03:00",
+              "key": 1457105160000,
+              "doc_count": 519,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 24,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 137,
+                    "1": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 66,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 70,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 55,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 97,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "cancelAppointment",
+                    "doc_count": 5,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 36,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 27,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "shiftAppointment",
+                    "doc_count": 2,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_as_string": "2016-03-04T18:27:00.000+03:00",
+              "key": 1457105220000,
+              "doc_count": 110,
+              "3": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                  {
+                    "key": "createAppointment",
+                    "doc_count": 3,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getAvailableResourceScheduleInfo",
+                    "doc_count": 28,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "getDoctorsInfo",
+                    "doc_count": 23,
+                    "1": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "key": "digitalPrescription",
+                    "doc_count": 8,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getAppointmentReceptionsByPatient",
+                    "doc_count": 16,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getPatientInfo",
+                    "doc_count": 6,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getReferralsInfo",
+                    "doc_count": 10,
+                    "1": {
+                      "value": 0
+                    }
+                  },
+                  {
+                    "key": "getSpecialitiesInfo",
+                    "doc_count": 16,
+                    "1": {
+                      "value": 0
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

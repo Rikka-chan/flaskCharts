@@ -1,0 +1,19 @@
+.chart{
+    height: 100%;
+    widht:100%;
+    z-index: 1;
+    position: relative;
+}
+.selection{
+    position: relative;
+    right: -5px;
+    top:-100px;
+    z-index: 2;
+    width:15%;
+}
+.container-fluid .row div{
+    padding:0px;
+}
+body{
+    background-color: #5e5e5e;
+}
